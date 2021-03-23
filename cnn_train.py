@@ -26,9 +26,7 @@ parser.add_argument('--csv_file', type=str, help='the log dir of the csv')
 #set device
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-#paths
-#root_dir = r'C:\Users\MaNaM\Desktop\tuna\dogs-vs-cats\all_data'
-#csv_file = r'C:\Users\MaNaM\Desktop\tuna\labels.csv'
+
 writer = SummaryWriter(f'runs')
 
 
